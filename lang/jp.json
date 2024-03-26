@@ -1,0 +1,31 @@
+{
+    "Checkout form": "チェックアウトフォーム",
+    "Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.": "以下は、Bootstrap のフォーム コントロールのみを使用して構築されたフォームの例です。 必須の各フォーム グループには、フォームを完了せずに送信しようとするとトリガーされる検証状態があります",
+    "Billing address": "請求先住所 :name",
+    "Valid first name is required.": "有効な名が必要です。",
+    "Your username is required.": "ユーザー名は必須です",
+
+    "Shipping address is the same as my billing address": "配送先住所は請求先住所と同じです",
+    "Save this information for next time": "次回のためにこの情報を保存してください",
+    "Payment": "支払い",
+
+    "Credit card": "クレジットカード",
+    "Debit card": "デビットカード",
+    "PayPal": "PayPal",
+    "Name on card": "カードに記載されている名前",
+    "Credit card number": "クレジットカード番号",
+    "Expiration": "有効期限",
+    "CVV": "CVV",
+    "Continue to checkout": "チェックアウトを続ける",
+
+    "Your cart": "あなたのカート",
+    "Product name": "商品名",
+    "Brief description": "簡単な説明",
+    "Second product": "2番目の製品",
+    "Third item": "3番目の項目",
+    "EXAMPLECODE": "コード例",
+    "Total (USD)": "合計(YEN)",
+    "Promo code": "プロモーションコード",
+    "Redeem": "償還",
+    "$": "YEN"
+}

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/checkout', [MainController::class, 'checkout'])->name('checkout');
+
+Route::get('/album', [MainController::class, 'album'])->name('album');
+
+Route::get('/switch/{locale}', [MainController::class, 'switch']);
