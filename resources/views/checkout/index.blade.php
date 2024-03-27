@@ -168,7 +168,7 @@
 	<div class="container">
 		<main>
 			<div class="py-5 text-center">
-				<img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+				<img class="d-block mx-auto mb-4" src="../assets/brand/icons-go.svg" alt="" width="72" height="57">
 				<h2>{{__('Checkout form')}}</h2>
 				<p class="lead">{{__('Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.')}}</p>
 			</div>
@@ -183,28 +183,28 @@
 						<li class="list-group-item d-flex justify-content-between lh-sm">
 							<div>
 								<h6 class="my-0">{{__('Product name')}}</h6>
-								<small class="text-body-secondary">Brief description</small>
+								<small class="text-body-secondary">{{__('Brief description')}}</small>
 							</div>
 							<span class="text-body-secondary">{{__('$')}}</span>
 						</li>
 						<li class="list-group-item d-flex justify-content-between lh-sm">
 							<div>
 								<h6 class="my-0">{{__('Second product')}}</h6>
-								<small class="text-body-secondary">Brief description</small>
+								<small class="text-body-secondary">{{__('Brief description')}}</small>
 							</div>
 							<span class="text-body-secondary">{{__('$')}}8</span>
 						</li>
 						<li class="list-group-item d-flex justify-content-between lh-sm">
 							<div>
 								<h6 class="my-0">{{__('Third item')}}</h6>
-								<small class="text-body-secondary">Brief description</small>
+								<small class="text-body-secondary">{{__('Brief description')}}</small>
 							</div>
 							<span class="text-body-secondary">{{__('$')}}5</span>
 						</li>
 						<li class="list-group-item d-flex justify-content-between bg-body-tertiary">
 							<div class="text-success">
 								<h6 class="my-0">{{__('Promo code')}}</h6>
-								<small>EXAMPLECODE</small>
+								<small>{{__('EXAMPLECODE')}}</small>
 							</div>
 							<span class="text-success">−{{__('$')}}5</span>
 						</li>

@@ -15,7 +15,7 @@
     "Name on card": "カードに記載されている名前",
     "Credit card number": "クレジットカード番号",
     "Expiration": "有効期限",
-    "CVV": "CVV",
+    "CVV": "履歴書",
     "Continue to checkout": "チェックアウトを続ける",
 
     "Your cart": "あなたのカート",
@@ -27,5 +27,6 @@
     "Total (USD)": "合計(YEN)",
     "Promo code": "プロモーションコード",
     "Redeem": "償還",
-    "$": "YEN"
+    "$": "YEN",
+    "Full name as displayed on card": "カードに表示されるフルネーム"
 }
