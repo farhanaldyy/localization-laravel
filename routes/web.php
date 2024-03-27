@@ -19,7 +19,15 @@ Route::get('/', function () {
 });
 
 Route::get('/checkout', [MainController::class, 'checkout'])->name('checkout');
-
 Route::get('/album', [MainController::class, 'album'])->name('album');
-
 Route::get('/switch/{locale}', [MainController::class, 'switch']);
+
+// Route with prefix
+Route::group([
+    'prefix' => '{locale}',
+    'where' => ['locale' => '[a-zA-Z]{2}']
+], function () {
+    Route::get('/checkout', [MainController::class, 'checkout'])->name('checkout');
+    Route::get('/album', [MainController::class, 'album'])->name('album');
+    Route::get('/switch/{locale}', [MainController::class, 'switch']);
+});
